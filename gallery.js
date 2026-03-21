@@ -8,7 +8,7 @@
 
 // ── 설정 ──────────────────────────────────────────────────
 const CONFIG = {
-  siteName:      'your name',       // 사이트 이름 (헤더, 푸터에 표시)
+  siteName:      'DavidLEE',       // 사이트 이름 (헤더, 푸터에 표시)
   stripMaxCount: 10,                // 썸네일 스트립에 보여줄 최대 개수
   thumbSuffix:   '',                // 썸네일 전용 파일이 있으면 입력 (없으면 빈 문자열)
 };
@@ -160,6 +160,7 @@ function catLabel(cat) {
   const map = {
     'travel':       '여행사진',
     'long-exposure':'장노출',
+    'trajectory':   '궤적사진',
     'typological':  '유형적',
     'series':       '연작시리즈',
     'recent':       '최근 작업',
